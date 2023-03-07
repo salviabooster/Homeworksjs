@@ -10,7 +10,7 @@
 	<h4>Завдання 6</h4>
 	<p>З клавіатури вводиться номер дня тижня. Вивести на екран назву дня.</p>
 	<script>
-	let aDayUser = parseInt(prompt('Bведіть номер дня тижня 1-7'))
+	let dayUser = parseInt(prompt('Bведіть номер дня тижня 1-7'))
 	const firstDay = 1
 	const secondDay = 2
 	const thirdDay = 3
@@ -19,19 +19,19 @@
 	const sixthDay = 6
 	const seventhDay = 7
 
-	if (aDayUser === firstDay)
+	if (dayUser === firstDay)
 		document.write(`Понеділок`)
-	else if (aDayUser === secondDay)
+	else if (dayUser === secondDay)
 		document.write(`Вівторок`)
-	else if (aDayUser === thirdDay)
+	else if (dayUser === thirdDay)
 		document.write(`Середа`)
-	else if (aDayUser === fourthDay)
+	else if (dayUser === fourthDay)
 		document.write(`Четверг`)
-	else if (aDayUser === fifthDay)
+	else if (dayUser === fifthDay)
 		document.write(`П'ятниця`)
-	else if (aDayUser === sixthDay)
+	else if (dayUser === sixthDay)
 		document.write(`Субота`)
-	else if (aDayUser === seventhDay)
+	else if (dayUser === seventhDay)
 		document.write(`Неділя`)
 	else
 		document.write(`Некоректні дані`)
